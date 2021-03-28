@@ -1,0 +1,69 @@
+.ListaPaginada{
+  margin-top: 1%;
+  display: grid;
+  grid-template-areas:
+                      "TituloLista"
+                      "CuerpoLista"
+                      "PaginacionLista"
+  ;
+  grid-gap: 5px;
+  border-radius: 5px;
+  width: 60%;
+  background-color: #ffff;
+  color:grey;
+}
+.TituloLista{
+  grid-area: TituloLista;
+}
+.Publicaciones{
+  grid-area: CuerpoLista;
+}
+.Publicaciones tr{
+  display: grid;
+  grid-auto-rows: min-content;
+  font-size: 15px;
+  text-align: left;
+}
+.Publicaciones td{
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 1px solid #cccccc;
+}
+.Publicaciones td:hover{
+  border-bottom: 1px solid #76d9eb;
+  color: #76d9eb;
+}
+/*Paginacion*/
+.Paginacion{
+  width:100%;
+  grid-area:PaginacionLista;
+}
+.Paginacion ul{
+  padding: 0px;
+  width: 100%;
+  margin: 10px 0px  10px 0px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.Paginacion li{
+  margin: 0px  15px  0px  15px;
+}
+.Paginacion a{
+  font-size: 15px;
+  text-decoration: none;
+  color: grey;
+}
+.Paginacion a:active  ,.Paginacion a:hover {
+  color: green;
+}
+@media screen and (max-width: 800px) {
+  .ListaPaginada{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ListaPaginada{
+    width: 90%;
+  }
+}

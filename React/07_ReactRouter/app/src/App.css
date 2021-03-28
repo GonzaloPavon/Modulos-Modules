@@ -1,0 +1,20 @@
+.App {
+  display: grid;
+  text-align: center;
+  background-color: #20232a;
+  min-height: 97vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  grid-gap: 5px;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-areas:
+                      "NavApp"
+                      "BodyApp"
+                      "FootApp";
+}
+@media only screen and (max-width: 755px){
+  .App{
+    grid-gap: 1px;
+    grid-template-rows: 1fr 8fr 1fr;
+  }
+}

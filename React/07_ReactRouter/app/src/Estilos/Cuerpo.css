@@ -1,0 +1,6 @@
+.Cuerpo{
+  grid-area: BodyApp;
+  background-color: #ffffff;
+  color: grey;
+  height: 100%;
+}

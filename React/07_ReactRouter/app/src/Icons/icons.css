@@ -1,0 +1,64 @@
+/*Configuracion de los iconos*/
+.iconHome {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("casa.svg") no-repeat top left;
+  background-size: contain;
+}
+.iconTalk {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("charla.svg") no-repeat top left;
+  background-size: contain;
+}
+.iconShare {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("compartir.svg") no-repeat top left;
+  background-size: contain;
+}
+.iconDownload {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("descargar.svg") no-repeat top left;
+  background-size: contain;
+}
+.iconEdit {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("editar.svg") no-repeat top left;
+  background-size: contain;
+}
+.iconSettings {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("engranaje.svg") no-repeat top left;
+  background-size: contain;
+}
+.iconMenu {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background: url("menu.svg") no-repeat top left;
+  background-size: contain;
+}

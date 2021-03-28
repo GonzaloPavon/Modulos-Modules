@@ -1,0 +1,1 @@
+Los Middlewares son funciones que operan antes de que las peticiones se realicen y nos sirven para mejorar el desarrollo
